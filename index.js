@@ -12,7 +12,9 @@ const Button = require('./button.js');
 const Overlay = require('./overlay.js');
 const Sheet = require('./sheet.js');
 
-module.exports = React.createClass({
+const createReactClass = require('create-react-class');
+
+module.exports = createReactClass({
     getDefaultProps: function () {
         return {
             cancelText: 'Cancel',
