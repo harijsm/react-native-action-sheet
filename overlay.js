@@ -7,10 +7,11 @@
 const React = require('react');
 const ReactNative = require('react-native');
 const { Animated, StyleSheet, View, Dimensions } = ReactNative;
+const createReactClass = require('create-react-class');
 
 const DEFAULT_ANIMATE_TIME = 300;
 
-module.exports = React.createClass({
+module.exports = createReactClass({
     getInitialState () {
         return {
             fadeAnim: new Animated.Value(0),
