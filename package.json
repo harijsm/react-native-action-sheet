@@ -1,5 +1,5 @@
 {
-    "name": "@remobile/react-native-action-sheet",
+    "name": "react-native-action-sheet",
     "version": "1.0.2",
     "description": "A pure js ActionSheet like ios ActionSheet, support ios and android",
     "main": "index.js",
@@ -19,12 +19,12 @@
         "remobile",
         "mobile"
     ],
-    "homepage": "https://github.com/remobile/react-native-action-sheet",
+    "homepage": "https://github.com/harijsm/react-native-action-sheet",
     "bugs": {
-        "url": "https://github.com/remobile/react-native-action-sheet/issues"
+        "url": "https://github.com/harijsm/react-native-action-sheet/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/remobile/react-native-action-sheet.git"
+        "url": "git://github.com/harijsm/react-native-action-sheet.git"
     }
 }
